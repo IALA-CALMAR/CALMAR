@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Calmar.exe" version="0.2.4.7" publicKeyToken="b2e1cfc79be94a23" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="IconCalmar.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Calmar" version="0.2.4.3" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Calmar.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Options du manifeste de contrôle de compte d'utilisateur
+             Si vous souhaitez modifier le niveau du contrôle de compte d'utilisateur Windows, remplacez le nœud 
+
+             requestedExecutionLevel par l'une des propositions suivantes.
+        <requestedExecutionLevel  level="asInvoker"  uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator"  uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable"  uiAccess="false" />
+
+            La spécification du nœud requestedExecutionLevel désactivera la virtualisation de fichiers et du Registre.
+            Si vous souhaitez utiliser la virtualisation de fichiers et du Registre pour la compatibilité 
+            descendante, supprimez le noeud requestedExecutionLevel.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BuoyLib.dll" size="59392">
+      <assemblyIdentity name="BuoyLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>A17q4Qpd0sQARkiF5wQ5QNX18nc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Calmar.exe" size="812032">
+      <assemblyIdentity name="Calmar" version="0.2.4.3" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>BefSBycmK1AR50UOkj/eGfdmSK0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Windows.Shell.dll" size="167808">
+      <assemblyIdentity name="Microsoft.Windows.Shell" version="3.5.41019.1" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>S66efBtmPeGHach1D6NpPm/2B8k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RibbonControlsLibrary.dll" size="802168">
+      <assemblyIdentity name="RibbonControlsLibrary" version="4.0.0.11019" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>yXJS6HZ2Q7SVRnRSjo58V7+D8Hs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Windows.Controls.DataVisualization.Toolkit.dll" size="278872">
+      <assemblyIdentity name="System.Windows.Controls.DataVisualization.Toolkit" version="3.5.40128.1" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>TclcSZy+hi1Mak/M3nGyhp8H4nk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WPFToolkit.dll" size="467288">
+      <assemblyIdentity name="WPFToolkit" version="3.5.40128.1" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>AaJQYxOXyTxKq5p3eobjn9jYTwk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="IconCalmar.ico" size="98541">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>E3IY2pk9wY3SoaTybY0AHffEcUM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Langues\lang.ar.xml" size="22573" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>c2gQf2V3/Op/KHHxywQku4EFSCM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Langues\lang.de.xml" size="19246" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4FSrxh3n/r9tTKy4u0+/JlKIKP0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Langues\lang.en.xml" size="19365" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zUczV+XkkHeXxhuSjqnmBnfhLEQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Langues\lang.es.xml" size="19485" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KdJ5RriMi8sMi79n//sBtpv1UM0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Langues\lang.fr.xml" size="20003" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ReMqoKK3QPC+2itZH2+EP0hWAtw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Langues\lang.jp.xml" size="19552" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>16Whaah1SGChvz5gSbsaG/87eEU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="readme.md" size="138">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>l2GImwMO9HKxDc+mtWuLn7zfVOA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WorkingDirectory\Chains.xmlMB" size="10270" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HYmP7zsnIfz40l8KYbL46GzKt+c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Une liste de toutes les versions de Windows avec laquelle cette application peut fonctionner. Windows sélectionnera automatiquement l'environnement le plus compatible.-->
+      <!-- Si votre application est conçue pour fonctionner avec Windows 7, supprimez les commentaires du nœud supportedOS suivant-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=MOBILIS_HQ\jfbouculat" issuerKeyHash="fcaefdee9bd362d6f54dac9e1aaf20240562f140" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>UXbDuMOfS+AIO9qeQqKPSX0BdtY=</DigestValue></Reference></SignedInfo><SignatureValue>WO513a7DsM3A97d2sFRALn6XXpiOGYm3pQ2l/JlbrVZ5fd9rM/vU6fPk014MAIjCs4G1ikvQDTFinwmYehR9BpjwK3QSu8GfHQp64uY+osfO/viT2L+/DWAst+N29gFegKvn1mnKkiVTtU7ORQuPG761FB3gHb9LwPSw+7WzPs4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>8gvWIxUOhNySzmVj6Tm+rHd14Otzf7LU5Q06cI7d3P7Qcg8sRMS0e3zzZB4PlpIT9xwB3vSNGElW87W04kAM+QM7ND0GDkFjTD6zK5g9Ds0unXhM4e7zw3U57LzFWj++Qq9pOVJJq0/IqR1jz1SCz+5sFYGsgOx/ZmETWNW+ZYc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d676017d498fa2429eda3b08e04b9fc3b8c37651" Description="" Url=""><as:assemblyIdentity name="Calmar.exe" version="0.2.4.7" publicKeyToken="b2e1cfc79be94a23" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MOBILIS_HQ\jfbouculat</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>01nwmk0dc5unYysHnfE7hFv1v6A=</DigestValue></Reference></SignedInfo><SignatureValue>w2gvSQ40Md+vJFmRYfIbIn6sfBgPOXNcKECHmPUzxk9VfwjZ1aNGLPY5Vvx+tPmn/8P1AHF+gU6HBaKllKyHKBWsxAQ36ar2x6icY+3dmCzkZc1A0l1YIC+avwdqa/kampTZ7vN+6UHtfYPtVH/pwCO/0xGnDoKo5XQjv2Q2pis=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>8gvWIxUOhNySzmVj6Tm+rHd14Otzf7LU5Q06cI7d3P7Qcg8sRMS0e3zzZB4PlpIT9xwB3vSNGElW87W04kAM+QM7ND0GDkFjTD6zK5g9Ds0unXhM4e7zw3U57LzFWj++Qq9pOVJJq0/IqR1jz1SCz+5sFYGsgOx/ZmETWNW+ZYc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQFqmPb9Ejx7dFU/WE7gnyjTANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioATQBPAEIASQBMAEkAUwBfAEgAUQBcAGoAZgBiAG8AdQBjAHUAbABhAHQwHhcNMTQwMjI3MDk1NzM0WhcNMTUwMjI3MTU1NzM0WjA1MTMwMQYDVQQDHioATQBPAEIASQBMAEkAUwBfAEgAUQBcAGoAZgBiAG8AdQBjAHUAbABhAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPIL1iMVDoTcks5lY+k5vqx3deDrc3+y1OUNOnCO3dz+0HIPLETEtHt882QeD5aSE/ccAd70jRhJVvO1tOJADPkDOzQ9Bg5BY0w+syuYPQ7NLp14TOHu88N1Oey8xVo/vkKvaTlSSatPyKkdY89Ugs/ubBWBrIDsf2ZhE1jVvmWHAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAyNMpUetsYv4FO8fI8TsoLbzvlAYAwRAzX2bBpOu4YtYCFMGAirUOe6XCBWJpKaeYuPTf6ScWOr1SuPKG1VsOAo3vPAG+xrAzLSOJyxFpnqf5q5O2PeUPIw6DrAohEDQ+KmHB/pa+6rY7SwW5UQfAzLOMg/KE5aDELzIB1tHxowA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
