@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Calmar>
+
+
+  <!-- Main -->
+
+  <Lang Name="MainAccueilTab" Text="Models" />
+  <Lang Name="MainGroupFichier" Text="Files base management" />
+  <Lang Name="MainButtonOuvertureFichier" Text="Open" />
+  <Lang Name="MainButtonSauvegardeFichier" Text="Save" />
+  <Lang Name="MainGroupBouees" Text="Models management" />
+  <Lang Name="MainButtonNouveauBouee" Text="New" />
+  <Lang Name="MainButtonModifierBouee" Text="Modify" />
+  <Lang Name="MainButtonCopierBouee" Text="Copy" />
+  <Lang Name="MainButtonSupprimerBouee" Text="Delete" />
+  <Lang Name="MainGroupTri" Text="Sort by" />
+  <Lang Name="MainComboBoxListeTri" Text="{Name,Volume}|1" />
+  <Lang Name="MainButtonTriListeBoueeCroissant" Text="Ascending order" />
+  <Lang Name="MainButtonTriListeBoueeDecroissant" Text="Descending order" />
+  <Lang Name="MainCalculTab" Text="Calculation Parameters" />
+  <Lang Name="MainButtonCalcul" Text="Calculation" />
+  <Lang Name="MainButtonNoLoad" Text="No load" />
+  <Lang Name="MainButtonCurrent" Text="Current" />
+  <Lang Name="MainButtonVent" Text="Wind" />
+  <Lang Name="MainButtonHoule" Text="Wave" />
+  <Lang Name="MainButtonFullLoad" Text="Full load" />
+  <Lang Name="MainButtonCalculHydro" Text="Hydro Calculation" />
+  <Lang Name="MainLangueTab" Text="Languages" />
+  <Lang Name="MainGroupLangue" Text="Language Selection" />
+  <Lang Name="MainButtonLangueFr" Text="Français" />
+  <Lang Name="MainButtonLangueEn" Text="English" />
+  <Lang Name="MainButtonLangueEs" Text="Espanol" />
+  <Lang Name="MainButtonLangueJp" Text="Japanese" />
+  <Lang Name="MainButtonLangueDe" Text="German" />
+  <Lang Name="MainTextBlockSelectionChaine" Text="Chain Selection" />
+  <Lang Name="MainTextBlockParamCalculDN" Text="ND" />
+  <Lang Name="MainTextBlockParamCalculType" Text="Type" />
+  <Lang Name="MainTextBlockParamCalculQualite" Text="Quality" />
+  <Lang Name="MainTextBlockParamCalculLest" Text="Ballast" />
+  <Lang Name="MainTextBlockParamCalculMasseEquipement" Text="Equipment mass" />
+  <Lang Name="MainRadioButtonMasseEquipement" Text="kg" />
+  <Lang Name="MainButtonListEquipement" Text="..." />
+  <Lang Name="MainTextBlockParamCalculProfondeur" Text="Nominal Depth" />
+  <Lang Name="MainRadioButtonProfondeur" Text="m" />
+  <Lang Name="MainTextBlockParamCalculMarnage" Text="Tidal Range" />
+  <Lang Name="MainRadioButtonMarnage" Text="m" />
+  <Lang Name="MainTextBlockParamCalculHouleMax" Text="Max. Wave Height" />
+  <Lang Name="MainRadioButtonHouleMax" Text="m" />
+  <Lang Name="MainTextBlockParamCalculHouleSignificative" Text="Significant Wave" />
+  <Lang Name="MainRadioButtonHouleSignificative" Text="m" />
+  <Lang Name="MainTextBlockParamCalculPeriodeHoule" Text="Wave Period" />
+  <Lang Name="MainRadioButtonPeriodeHoule" Text="sec" />
+  <Lang Name="MainTextBlockParamCalculVitesseCourant" Text="Current Speed" />
+  <Lang Name="MainRadioButtonVitesseCourantMS" Text="m/s" />
+  <Lang Name="MainRadioButtonVitesseCourantKts" Text="kn" />
+  <Lang Name="MainTextBlockParamCalculVitesseVent" Text="Wind Speed" />
+  <Lang Name="MainRadioButtonVitesseVentMS" Text="m/s" />
+  <Lang Name="MainRadioButtonVitesseVentKmh" Text="km/h" />
+  <Lang Name="MainTextBlockParamCalculSelectionDensiteCM" Text="Sinker Spgr selection" />
+  <Lang Name="MainComboBoxDensiteCM" Text="{2.4 (Std.Reinforced Concrete),2.8 (Heavily Reinforced Concrete),3.0 (Hématite Reinforced Concrete),7.3 (Cast Iron),7.85 (Steel)}|1" />
+  <Lang Name="MainTextBlockAideLigne1" Text="Select a Model in the list on the left of screen to Edit the model or to switch in Calculation Mode" />
+  <Lang Name="MainTextBlockAideLigne2" Text="Click on the Open Icon to add a Model in your Work List" />
+  <Lang Name="MainTextBlockAideLigne3" Text="Click on the Modify Icon to Modify the selected Model" />
+  <Lang Name="MainTextBlockAideLigne4" Text="Click on the Calculation Parameters Icon to Calculate a Mooring line on the selected Model" />
+  <Lang Name="MainTextBlockAideLigne5" Text="Manual and Technical reference in " />
+  <Lang Name="MainButtonSiteParametre" Text="Advanced Parameter" />
+
+
+  <!-- ManagerBuoy -->
+
+  <Lang Name="ManagerBuoyGeneralTab" Text="General" />
+  <Lang Name="ManagerBuoyRibbonGroupSaveBuoy" Text="Saving Management" />
+  <Lang Name="ManagerBuoyButtonSauvegardeBouee" Text="Save" />
+  <Lang Name="ManagerBuoyRibbonGroupMoveFloatOnStructure" Text="Shifting the Float along the Structure" />
+  <Lang Name="ManagerBuoyButtonDeplacerFlotteurAuDessus" Text="Shift Upward" />
+  <Lang Name="ManagerBuoyButtonDeplacerFlotteurAuDessous" Text="Shift Downward" />
+  <Lang Name="ManagerBuoyTextBlockPasDeplacement" Text="Shift Step(m)" />
+  <Lang Name="ManagerBuoyFlotteurTab" Text="Float" />
+  <Lang Name="ManagerBuoyRibbonGroupFlotteurFonctionElement" Text="Action on selected slice" />
+  <Lang Name="ManagerBuoyButtonNouveauFlotteur" Text="New Slice" />
+  <Lang Name="ManagerBuoyButtonAjouterFlotteur" Text="Add" />
+  <Lang Name="ManagerBuoyButtonModificationFlotteur" Text="Modification" />
+  <Lang Name="ManagerBuoyButtonSupprimerFlotteur" Text="Delete" />
+  <Lang Name="ManagerBuoyButtonFlotteurDeplacerElementAuDessus" Text="Shift Upward" />
+  <Lang Name="ManagerBuoyButtonFlotteurDeplacerElementAuDessous" Text="Shift Downward" />
+  <Lang Name="ManagerBuoyStructureTab" Text="Structure" />
+  <Lang Name="ManagerBuoyRibbonGroupStructureFonctionElement" Text="Action on selected slice" />
+  <Lang Name="ManagerBuoyButtonNouveauStructure" Text="New Slice" />
+  <Lang Name="ManagerBuoyButtonAjouterStructure" Text="Add" />
+  <Lang Name="ManagerBuoyButtonModificationStructure" Text="Modification" />
+  <Lang Name="ManagerBuoyButtonSupprimerStructure" Text="Delete" />
+  <Lang Name="ManagerBuoyButtonStructureDeplacerElementAuDessus" Text="Shift Upward" />
+  <Lang Name="ManagerBuoyButtonStructureDeplacerElementAuDessous" Text="Shift Downward" />
+  <Lang Name="ManagerBuoyPyloneTab" Text="Pylon" />
+  <Lang Name="ManagerBuoyRibbonGroupPyloneFonctionElement" Text="Action on selected element" />
+  <Lang Name="ManagerBuoyButtonNouveauPylone" Text="New" />
+  <Lang Name="ManagerBuoyButtonAjouterPylone" Text="Add" />
+  <Lang Name="ManagerBuoyButtonModificationPylone" Text="Modification" />
+  <Lang Name="ManagerBuoyButtonSupprimerPylone" Text="Delete" />
+  <Lang Name="ManagerBuoyButtonPyloneDeplacerElementAuDessus" Text="Shift Upward" />
+  <Lang Name="ManagerBuoyButtonPyloneDeplacerElementAuDessous" Text="Shift Downward" />
+  <Lang Name="ManagerBuoyVoyantTab" Text="Topmark" />
+  <Lang Name="ManagerBuoyRibbonGroupVoyantFonctionElement" Text="Action on selected element" />
+  <Lang Name="ManagerBuoyButtonNouveauVoyant" Text="New" />
+  <Lang Name="ManagerBuoyButtonAjouterVoyant" Text="Add" />
+  <Lang Name="ManagerBuoyButtonModificationVoyant" Text="Modification" />
+  <Lang Name="ManagerBuoyButtonSupprimerVoyant" Text="Delete" />
+  <Lang Name="ManagerBuoyButtonVoyantDeplacerElementAuDessus" Text="Shift Upward" />
+  <Lang Name="ManagerBuoyButtonVoyantDeplacerElementAuDessous" Text="Shift Downward" />
+  <Lang Name="ManagerBuoyTextBlockVisualisationGraphique" Text="Graphic display" />
+  <Lang Name="ManagerBuoyTextBlockParamGenBouee" Text="General Parameters" />
+  <Lang Name="ManagerBuoyTextBlockNomBouee" Text="Name" />
+  <Lang Name="ManagerBuoyTextBlockChaineComp" Text="Compatible chain" />
+  <Lang Name="ManagerBuoyTextBlockChaineMin" Text="Min" />
+  <Lang Name="ManagerBuoyTextBlockChaineMax" Text="Max" />
+  <Lang Name="ManagerBuoyTextBlockBoueeLest" Text="Ballasts definition" />
+  <Lang Name="ManagerBuoyTextBlockBoueeMasse" Text="Mass" />
+  <Lang Name="ManagerBuoyTextBlockNombre" Text="Amount" />
+  <Lang Name="ManagerBuoyTextBlockNombreMin" Text="Min" />
+  <Lang Name="ManagerBuoyTextBlockNombreMax" Text="Max" />
+  <Lang Name="ManagerBuoyTextBlockFloatToStructBuoy" Text="Height of bottom of Float above lowest point of Structure(m)" />
+  <Lang Name="ManagerBuoyTextBlockInfoBouee" Text="Informations" />
+  <Lang Name="ManagerBuoyTextBlockMasseBuoy" Text="Buoy Mass(kg)" />
+  <Lang Name="ManagerBuoyTextBlockVolumeBuoy" Text="Total Volume of(m³)" />
+  <Lang Name="ManagerBuoyTextBlockParamGenFlotteur" Text="General Parameters" />
+  <Lang Name="ManagerBuoyTextBlockNomFlotteur" Text="Name of Float" />
+  <Lang Name="ManagerBuoyButtonCopieFlotteur" Text="..." />
+  <Lang Name="ManagerBuoyTextBlockMasseFloat" Text="Mass (kg)" />
+  <Lang Name="ManagerBuoyTextBlockInfoFlotteur" Text="Informations" />
+  <Lang Name="ManagerBuoyTextBlockVolumeFloat" Text="Total Volume (m³)" />
+  <Lang Name="ManagerBuoyTextBlockParametreElementSelectFloat" Text="Parameters of selected slice" />
+  <Lang Name="ManagerBuoyTextBlockFlotteurHauteur" Text="Height (m)" />
+  <Lang Name="ManagerBuoyTextBlockFlotteurDiametreH" Text="Top Diameter (m)" />
+  <Lang Name="ManagerBuoyTextBlockFlotteurDiametreI" Text="Inside Diameter (m)" />
+  <Lang Name="ManagerBuoyTextBlockFlotteurDiametreB" Text="Bottom Diameter (m)" />
+  <Lang Name="ManagerBuoyTextBlockFlotteurVolume" Text="Real Volume (m³)" />
+  <Lang Name="ManagerBuoyTextBlockFlotteurVolumeCalcul" Text="Calculated Volume (m³)" />
+  <Lang Name="ManagerBuoyTextBlockParamGenStructure" Text="General Parameters" />
+  <Lang Name="ManagerBuoyTextBlockNomStructure" Text="Name of Structure" />
+  <Lang Name="ManagerBuoyButtonCopieStructure" Text="..." />
+  <Lang Name="ManagerBuoyTextBlockMasseStruct" Text="Mass (kg)" />
+  <Lang Name="ManagerBuoyTextBlockProfOrganeauStruct" Text="Depth of Anchor Ring under Bottom of Float(m)" />
+  <Lang Name="ManagerBuoyTextBlockInfoStructure" Text="Informations" />
+  <Lang Name="ManagerBuoyTextBlockVolumeStruct" Text="Total Volume (m³)" />
+  <Lang Name="ManagerBuoyTextBlockParametreElementSelectStruct" Text="Parameters of selected slice" />
+  <Lang Name="ManagerBuoyTextBlockStructureHauteur" Text="Height (m)" />
+  <Lang Name="ManagerBuoyTextBlockStructureDiametreH" Text="Top Diameter (m)" />
+  <Lang Name="ManagerBuoyTextBlockStructureDiametreI" Text="Inside Diameter (m)" />
+  <Lang Name="ManagerBuoyTextBlockStructureDiametreB" Text="Bottom Diameter (m)" />
+  <Lang Name="ManagerBuoyTextBlockStructureVolume" Text="Real Volume (m³)" />
+  <Lang Name="ManagerBuoyTextBlockStructureVolumeCalcul" Text="Calculated Volume (m³)" />
+  <Lang Name="ManagerBuoyTextBlockParamGenPylone" Text="Parameters of Pilon Element" />
+  <Lang Name="ManagerBuoyTextBlockNomPylone" Text="Parameters of Pilon Element" />
+  <Lang Name="ManagerBuoyButtonCopiePylone" Text="..." />
+  <Lang Name="ManagerBuoyTextBlockMassePyl" Text="Mass (kg)" />
+  <Lang Name="ManagerBuoyTextBlockParametreElementSelectPyl" Text="Parameters of selected element" />
+  <Lang Name="ManagerBuoyTextBlockPyloneHauteur" Text="Height (m)" />
+  <Lang Name="ManagerBuoyTextBlockPyloneLongueurH" Text="Top width (m)" />
+  <Lang Name="ManagerBuoyTextBlockPyloneLongueurB" Text="Bottom width (m)" />
+  <Lang Name="ManagerBuoyTextBlockParamGenVoyant" Text="Parameters of Top Mark element" />
+  <Lang Name="ManagerBuoyTextBlockNomVoyant" Text="Name of Top Mark element" />
+  <Lang Name="ManagerBuoyButtonCopieVoyant" Text="..." />
+  <Lang Name="ManagerBuoyTextBlockMasseVoy" Text="Mass (kg)" />
+  <Lang Name="ManagerBuoyTextBlockParametreElementSelectVoy" Text="Parameters of selected element" />
+  <Lang Name="ManagerBuoyTextBlockVoyantHauteur" Text="Height (m)" />
+  <Lang Name="ManagerBuoyTextBlockVoyantLongueurH" Text="Top width (m)" />
+  <Lang Name="ManagerBuoyTextBlockVoyantLongueurB" Text="Bottom width (m)" />
+
+  <!-- Site parameter -->
+
+  <Lang Name="FenetreParametreSiteTextBlockLatitude" Text="Latitude" />
+  <Lang Name="FenetreParametreSiteTextBlockLongitude" Text="Longitude" />
+  <Lang Name="FenetreParametreSiteTextBlockDensité" Text="Water specific gravity" />
+  <Lang Name="FenetreParametreSiteTextBlockTrainee" Text="Drag coefficient" />
+  <Lang Name="FenetreParametreSiteComboBoxTrainee" Text="{High fouling = 1.4,Normal = 1.2,Low fouling = 0.9,Fresh water new buoy without fouling = 0.6}|2" />
+  <Lang Name="FenetreParametreSiteComboBoxDensiteEau" Text="{Salt water = 1.025,Fresh water = 1.0, Others}|1" />
+
+  <!-- Equip -->
+
+  <Lang Name="EquipTextBlockTreeViewEquipement" Text="List of standard equipments" />
+  <Lang Name="EquipTextBlockListBoxEquipement" Text="List of selected equipments" />
+  <Lang Name="EquipButtonAjouterEquipement" Text="Add" />
+  <Lang Name="EquipButtonModifierEquipement" Text="Modify" />
+  <Lang Name="EquipButtonSupprimerEquipement" Text="Delete" />
+  <Lang Name="EquipButtonValidationEquipement" Text="Ok" />
+
+
+  <!-- Result -->
+
+  <Lang Name="ResultRibbonTabComparateur" Text="Comparator" />
+  <Lang Name="ResultRibbonGroupBuoy" Text="Buoy" />
+  <Lang Name="ResultTextBlockBouee1" Text="Buoy 1" />
+  <Lang Name="ResultTextBlockBouee2" Text="Buoy 2" />
+  <Lang Name="ResultRibbonGroupChaine" Text="Chains" />
+  <Lang Name="ResultTextBlockDN1" Text="ND" />
+  <Lang Name="ResultTextBlockDN2" Text="ND" />
+  <Lang Name="ResultTextBlockType1" Text="Type" />
+  <Lang Name="ResultTextBlockType2" Text="Type" />
+  <Lang Name="ResultTextBlockQualite1" Text="Quality" />
+  <Lang Name="ResultTextBlockQualite2" Text="Quality" />
+  <Lang Name="ResultRibbonGroupLest" Text="Ballast" />
+  <Lang Name="ResultRibbonGroupDensiteCM" Text="Sinker Spgr" />
+  <Lang Name="ResultComboBoxDensiteCM1" Text="{2.4 (Std.Reinforced Concrete),2.8 (Heavily Reinforced Concrete),3.0 (Hématite Reinforced Concrete),7.3 (Cast Iron),7.85 (Steel)}|1" />
+  <Lang Name="ResultComboBoxDensiteCM2" Text="{2.4 (Std.Reinforced Concrete),2.8 (Heavily Reinforced Concrete),3.0 (Hématite Reinforced Concrete),7.3 (Cast Iron),7.85 (Steel)}|1" />
+  <Lang Name="ResultRibbonGroupPlus" Text="Plus" />
+  <Lang Name="ResultRibbonTabPrintExport" Text="Print and Export" />
+  <Lang Name="ResultRibbonGroupTitleProject" Text="Document Title" />
+  <Lang Name="ResultRibbonGroupPrint" Text="Print" />
+  <Lang Name="ResultButtonImpression" Text="Print" />
+  <Lang Name="ResultRibbonGroupExport" Text="Export" />
+  <Lang Name="ResultButtonExportCSV" Text="Txt" />
+  <Lang Name="ResultRibbonTabView" Text="Graphic display" />
+  <Lang Name="ResultRibbonGroupView" Text="Graphic display" />
+  <Lang Name="ResultButtonVisualisation" Text="Apeak Graphic display" />
+  <Lang Name="ResultTextBlockDN" Text="ND" />
+  <Lang Name="ResultTextBlockType" Text="Type" />
+  <Lang Name="ResultTextBlockLest" Text="Ballast" />
+  <Lang Name="ResultTextBlockDensite" Text="Spgr" />
+  <Lang Name="ResultTextBlockProfondeur" Text="Nominal Depth" />
+  <Lang Name="ResultTextBlockMasseEquipement" Text="Equipment mass" />
+  <Lang Name="ResultTextBlockHtMaxVagues" Text="Max. Height Waves" />
+  <Lang Name="ResultTextBlockHtSignifVague" Text="Signif. Height Waves" />
+  <Lang Name="ResultTextBlockPeriodeVague" Text="Waves Period" />
+  <Lang Name="ResultTextBlockMarnage" Text="Tidal Range" />
+  <Lang Name="ResultTextBlockVitVentMS" Text="Max. Speed Wind" />
+  <Lang Name="ResultTextBlockVitVentKMH" Text="Max. Speed Wind" />
+  <Lang Name="ResultTextBlockVitCourantMS" Text="Max. Speed Current" />
+  <Lang Name="ResultTextBlockVitCourantNds" Text="Max. Speed Current" />
+  <Lang Name="ResultTextBlockParametreChaineCM" Text="Parameters of selected Chain and Sinker" />
+  <Lang Name="ResultTextBlockConditionSiteSaisi" Text="Input Site Conditions" />
+  <Lang Name="ResultTextBlockProfondeurResultat" Text="Depth" />
+  <Lang Name="ResultTextBlockProfMin" Text="Minimum" />
+  <Lang Name="ResultTextBlockLongueurCat" Text="Catenary Length" />
+  <Lang Name="ResultTextBlockTensionMax" Text="Maximum Tension" />
+  <Lang Name="ResultTextBlockMouillage" Text="Mooring" />
+  <Lang Name="ResultTextBlockMasseMinCM" Text="Sinker Minimum Mass" />
+  <Lang Name="ResultTextBlockReserveFlota" Text="Buoy Reserve Buoyancy" />
+  <Lang Name="ResultTextBlockFrancBord" Text="Buoy Freeboard" />
+  <Lang Name="ResultTextBlockSurfLatImme" Text="Immersed Lateral Plane" />
+  <Lang Name="ResultTextBlockProfMax" Text="Maximum" />
+  <Lang Name="ResultTextBlockRayonEvitage" Text="Maximum Swinging Radius" />
+  <Lang Name="ResultTextBlockCoefSecuChaine" Text="Chain Safety Factor" />
+  <Lang Name="ResultTextBlockIALACoefSecu" Text="(IALA: ≥5\\Ce)" />
+  <Lang Name="ResultTextBlockTraineH" Text="Horizontal Drag" />
+  <Lang Name="ResultTextBlockDeplTotBuoy" Text="Buoy total Displacement" />
+  <Lang Name="ResultTextBlockTirantEau" Text="Buoy Draft" />
+  <Lang Name="ResultTextBlockSurfLatEme" Text="Emerged Lateral Plane" />
+  <Lang Name="ResultLinearAxisCatenaire" Text="Swinging Radius (m)" />
+  <Lang Name="ResultLinearAxisProfondeur" Text="Depth (m)" />
+  <Lang Name="ResultTextBlockTitleResultat" Text="Results" />
+  <Lang Name="ResultTextBlockTitleGraphique" Text="Graphic display of Catenary" />
+  <Lang Name="ResultTextBlockDensiteEau" Text="Water specific gravity" />
+  <Lang Name="ResultTextBlockCoefTrainee" Text="Drag coefficient" />
+
+
+  <!-- View -->
+
+  <Lang Name="ViewTextBlockTitle" Text="Graphic display of Freeboard" />
+  <Lang Name="ViewRadioButtonPIC" Text="Apeak" />
+  <Lang Name="ViewRadioButtonFullLoad" Text="Full Load" />
+  <Lang Name="ViewTextBlockBuoy1" Text="Buoy 1" />
+  <Lang Name="ViewTextBlockBuoy2" Text="Buoy 2" />
+
+
+  <!-- General -->
+
+  <Lang Name="GeneralTitreProjet" Text="Name of Project" />
+  <Lang Name="GeneralErreurRepertoire" Text="Error Work Directory inaccessible" />
+  <Lang Name="GeneralErreurAjoutBouee" Text="Error impossible to Add the Buoy" />
+  <Lang Name="GeneralErreurModifBouee" Text="Error impossible to Modify the Buoy" />
+  <Lang Name="GeneralErreurSupprBouee" Text="Error impossible to Delete the Buoy" />
+  <Lang Name="GeneralAjoutEquipementCategorie" Text="Category of equipement" />
+  <Lang Name="GeneralAjoutEquipementNom" Text="Name of equipement" />
+  <Lang Name="GeneralAjoutEquipementMasse" Text="Unit Mass of equipement(kg)" />
+  <Lang Name="GeneralTextBlockProject" Text="Project" />
+  <Lang Name="GeneralTextBlockParametre" Text="Parameters" />
+  <Lang Name="GeneralTextBlockProfondeurMax" Text="Maximum Depth" />
+  <Lang Name="GeneralTextBlockProfondeurMin" Text="minimum Depth" />
+  <Lang Name="GeneralTextBlockTensionMaxMouillage" Text="Maximum Mooring Tension" />
+  <Lang Name="GeneralTextBlockCoefSecuChaineIALA" Text="Chain Safety Factor(IALA: ≥5\\Test Load)" />
+  <Lang Name="GeneralTextBlockDiamChaine" Text="Chain Diameter" />
+  <Lang Name="GeneralTextBlockTypeChaine" Text="Type of Chain" />
+  <Lang Name="GeneralTextBlockCSVPointVirg" Text="Txt File dot-coma" />
+  <Lang Name="GeneralTextBlockCSVVirg" Text="Txt File coma" />
+  <Lang Name="GeneralTextBlockCSVTab" Text="Txt File Tabulation" />
+  <Lang Name="InfoBulleAddBuoy" Text="Do you want to replace the existing buoy ?" />
+  <Lang Name="InfoBulleModifyBuoy" Text="Exit without save the buoy ?" />
+  <Lang Name="InfoBulleCopyBuoyText" Text="Name of the buoy" />
+  <Lang Name="InfoBulleDeleteBuoy" Text="Do you want to delete the buoy " />
+  <Lang Name="InfoBulleErreurDeferlement" Text="Warning: Breaking Sea" />
+  <Lang Name="InfoBulleErreurHauteurOrg" Text="Warning: The structure is higher than depth" />
+
+</Calmar>
