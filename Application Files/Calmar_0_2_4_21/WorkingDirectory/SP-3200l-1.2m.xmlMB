@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Calmar version="1.0.0.0">
+	<Buoy Name="SP-3200l-1.2m" ChaineMin="20" ChaineMax="25" MasseLestUnitaire="100" NombreLestMin="0" NombreLestMax="0">
+		<Structure Name="" Masse="0" OffsetFlotteur="0" OffsetOrganeau="0">
+		</Structure>
+		<Flotteur Name="FLT_SP_1200_CYL" Masse="1300">
+			<ElementDimItem H="0.6" D0="0.52" D1="0.52" DI="0.08" Volume="0" />
+			<ElementDimItem H="1" D0="0.52" D1="1.2" DI="0" Volume="0" />
+			<ElementDimItem H="0.6" D0="1.2" D1="1.2" DI="0" Volume="0" />
+			<ElementDimItem H="0.5" D0="1.2" D1="1.2" DI="0" Volume="0" />
+			<ElementDimItem H="0.264" D0="1.2" D1="1.2" DI="0" Volume="0" />
+			<ElementDimItem H="0.4948" D0="1.2" D1="0.63" DI="0" Volume="0" />
+			<ElementDimItem H="0.4402" D0="0.63" D1="0.63" DI="0" Volume="0" />
+			<ElementDimItem H="0.996" D0="0.63" D1="0.63" DI="0" Volume="0" />
+			<ElementDimItem H="0.316" D0="0.63" D1="0.63" DI="0.1" Volume="0" />
+			<ElementDimItem H="0.05" D0="0.4" D1="0.4" DI="0" Volume="0" />
+		</Flotteur>
+	</Buoy>
+</Calmar>
