@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Calmar version="1.0.0.0">
+	<Buoy Name="T-7000l-2.6m" ChaineMin="14" ChaineMax="60" MasseLestUnitaire="100" NombreLestMin="5" NombreLestMax="6">
+		<Structure Name="A_STR_J7J9QI" Masse="596.1" OffsetFlotteur="2.28" OffsetOrganeau="2.194">
+			<ElementDimItem H="0.406" D0="0.1296" D1="0.524" DI="0" Volume="0.00939" />
+			<ElementDimItem H="1.864" D0="0.329" D1="0.329" DI="0" Volume="0.02838" />
+			<ElementDimItem H="0.01" D0="0.7" D1="0.7" DI="0" Volume="0.003" />
+			<ElementDimItem H="1.7" D0="0.3239" D1="0.3239" DI="0" Volume="0.0134" />
+			<ElementDimItem H="0.247" D0="1.729" D1="1.5558" DI="0" Volume="0.02139" />
+		</Structure>
+		<Flotteur Name="P_FLT_J7DI330" Masse="680">
+			<ElementDimItem H="0.2" D0="0.8" D1="1.796" DI="0.33" Volume="0.24" />
+			<ElementDimItem H="0.46" D0="1.796" D1="2.598" DI="0.33" Volume="1.6" />
+			<ElementDimItem H="0.39" D0="2.6" D1="2.6" DI="0.33" Volume="1.88" />
+			<ElementDimItem H="0.19" D0="2.514" D1="2.514" DI="0.33" Volume="0.84" />
+			<ElementDimItem H="0.55" D0="2.598" D1="2.598" DI="0.33" Volume="2.2" />
+		</Flotteur>
+		<Pylone Name="A_MAT_SUP_3M_SIMP" Height="3.008" WidthHigh="1.339" WidthLow="1.339" Masse="164.56" />
+		<Pylone Name="SUP_FEUX_1" Height="0.562" WidthHigh="0.08" WidthLow="0.08" Masse="5.5" />
+		<Equipement Name="A_VOY_CARD_GM_ALU" Height="0.86" WidthHigh="0.6" WidthLow="0.6" Masse="16.17" />
+	</Buoy>
+</Calmar>
