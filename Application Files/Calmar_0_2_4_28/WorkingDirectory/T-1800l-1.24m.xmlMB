@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Calmar version="1.0.0.0">
+	<Buoy Name="T-1800l-1.24m" ChaineMin="20" ChaineMax="25" MasseLestUnitaire="50" NombreLestMin="1" NombreLestMax="3">
+		<Structure Name="AQ 1500" Masse="240.93" OffsetFlotteur="1.589" OffsetOrganeau="1.529">
+			<ElementDimItem H="0.25" D0="0.05" D1="0.34" DI="0" Volume="0" />
+			<ElementDimItem H="1.329" D0="0.2191" D1="0.2191" DI="0" Volume="0" />
+			<ElementDimItem H="0.01" D0="0.4" D1="0.4" DI="0" Volume="0" />
+			<ElementDimItem H="1.66" D0="0.2191" D1="0.2191" DI="0" Volume="0" />
+			<ElementDimItem H="0.13" D0="0.8" D1="0.6" DI="0.8" Volume="0" />
+		</Structure>
+		<Flotteur Name="AQ 1500" Masse="164">
+			<ElementDimItem H="0.47" D0="0.35" D1="1.24" DI="0" Volume="0" />
+			<ElementDimItem H="1.15" D0="1.24" D1="1.24" DI="0" Volume="0" />
+		</Flotteur>
+		<Pylone Name="OCT STA" Height="0.01" WidthHigh="0.6" WidthLow="0.6" Masse="30" />
+		<Pylone Name="OCT STA 01" Height="0.25" WidthHigh="0.224" WidthLow="0.492" Masse="0" />
+		<Pylone Name="OCT STA 02" Height="0.269" WidthHigh="0.224" WidthLow="0.224" Masse="0" />
+		<Pylone Name="OCT STA 03" Height="0.472" WidthHigh="0.225" WidthLow="0.591" Masse="0" />
+		<Pylone Name="OCT STA 04" Height="0.472" WidthHigh="0.591" WidthLow="0.225" Masse="0" />
+		<Pylone Name="OCT STA 05" Height="0.1" WidthHigh="0.25" WidthLow="0.25" Masse="0" />
+	</Buoy>
+</Calmar>

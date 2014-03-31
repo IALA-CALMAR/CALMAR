@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Calmar version="1.0.0.0">
+	<Buoy Name="T-5000l-2.4m" ChaineMin="20" ChaineMax="50" MasseLestUnitaire="100" NombreLestMin="0" NombreLestMax="7">
+		<Structure Name="A_STR_J5QI" Masse="612" OffsetFlotteur="2.004" OffsetOrganeau="1.921">
+			<ElementDimItem H="0.406" D0="0.1296" D1="0.524" DI="0" Volume="0.0097" />
+			<ElementDimItem H="1.048" D0="0.3239" D1="0.3239" DI="0" Volume="0.01714" />
+			<ElementDimItem H="0.15" D0="0.85" D1="0.85" DI="0" Volume="0.0071" />
+			<ElementDimItem H="0.19" D0="0.3239" D1="0.3239" DI="0" Volume="0.00135" />
+			<ElementDimItem H="0.2" D0="0.3239" D1="0.626" DI="0" Volume="0.00142" />
+			<ElementDimItem H="0.01" D0="0.7" D1="0.7" DI="0" Volume="0.00307" />
+			<ElementDimItem H="1.3948" D0="0.3239" D1="0.3239" DI="0" Volume="0.00987" />
+			<ElementDimItem H="0.1155" D0="1.729" D1="1.5558" DI="0" Volume="0.02139" />
+		</Structure>
+		<Flotteur Name="P_FLT_J5DI324" Masse="632">
+			<ElementDimItem H="0.485" D0="1.222" D1="2.4" DI="0.324" Volume="1.08" />
+			<ElementDimItem H="0.375" D0="2.4" D1="2.4" DI="0.324" Volume="1.48" />
+			<ElementDimItem H="0.145" D0="2.33" D1="2.33" DI="0.324" Volume="0.52" />
+			<ElementDimItem H="0.21" D0="2.4" D1="2.4" DI="0.324" Volume="0.84" />
+			<ElementDimItem H="0.29" D0="2.4" D1="1.91" DI="0.324" Volume="0.84" />
+		</Flotteur>
+		<Pylone Name="A_MAT_SUP_2M_SIMP" Height="2" WidthHigh="0.5" WidthLow="1" Masse="90" />
+		<Pylone Name="SUP_FEUX_1" Height="0.2" WidthHigh="0.08" WidthLow="0.08" Masse="5" />
+		<Equipement Name="A_VOY_CARD_GM_ALU" Height="0.9" WidthHigh="0.6" WidthLow="0.6" Masse="14.7" />
+	</Buoy>
+</Calmar>
