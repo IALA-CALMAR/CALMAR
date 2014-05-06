@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Calmar>
+
+  <!-- Main -->
+
+  <Lang Name="MainAccueilTab" Text="أنماط	" />
+  <Lang Name="MainGroupFichier" Text="إدارة قاعدة الملفات	" />
+  <Lang Name="MainButtonOuvertureFichier" Text="فتح	" />
+  <Lang Name="MainButtonSauvegardeFichier" Text="حفظ	" />
+  <Lang Name="MainGroupBouees" Text="إدارة الأنماط	" />
+  <Lang Name="MainButtonNouveauBouee" Text="جديد	" />
+  <Lang Name="MainButtonModifierBouee" Text="تعديل	" />
+  <Lang Name="MainButtonCopierBouee" Text="نسخ	" />
+  <Lang Name="MainButtonSupprimerBouee" Text="حذف	" />
+  <Lang Name="MainGroupTri" Text="تصنيف حسب	" />
+  <Lang Name="MainComboBoxListeTri" Text="{الاسم, الحجم}|1" />
+  <Lang Name="MainButtonTriListeBoueeCroissant" Text="ترتيب تصاعدي	" />
+  <Lang Name="MainButtonTriListeBoueeDecroissant" Text="ترتيب تنازلي	" />
+  <Lang Name="MainCalculTab" Text="معايير الحساب	" />
+  <Lang Name="MainButtonCalcul" Text="الحساب	" />
+  <Lang Name="MainButtonNoLoad" Text="بدون ثقل	" />
+  <Lang Name="MainButtonCurrent" Text="التيار	" />
+  <Lang Name="MainButtonVent" Text="الرياح	" />
+  <Lang Name="MainButtonHoule" Text="الموجة	" />
+  <Lang Name="MainButtonFullLoad" Text="ثقل كامل	" />
+  <Lang Name="MainButtonCalculHydro" Text="حساب السوائل	" />
+  <Lang Name="MainLangueTab" Text="اللغات	" />
+  <Lang Name="MainGroupLangue" Text="اختيار اللغة	" />
+  <Lang Name="MainButtonLangueFr" Text="الفرنسية	" />
+  <Lang Name="MainButtonLangueEn" Text="الانجليزية	" />
+  <Lang Name="MainButtonLangueEs" Text="الإسبانية	" />
+  <Lang Name="MainButtonLangueDe" Text="ألماني" />
+  <Lang Name="MainButtonLangueAr" Text="العربية" />
+  <Lang Name="MainButtonLangueJp" Text="اليابانية	" />
+  <Lang Name="MainTextBlockSelectionChaine" Text="اختيار السلسلة	" />
+  <Lang Name="MainTextBlockParamCalculDN" Text="ND	" />
+  <Lang Name="MainTextBlockParamCalculType" Text="النوع	" />
+  <Lang Name="MainTextBlockParamCalculQualite" Text="الجودة	" />
+  <Lang Name="MainTextBlockParamCalculLest" Text="الثقل 	" />
+  <Lang Name="MainTextBlockParamCalculMasseEquipement" Text="كتلة المعدات	" />
+  <Lang Name="MainRadioButtonMasseEquipement" Text="كيلو جرام	" />
+  <Lang Name="MainButtonListEquipement" Text="...	" />
+  <Lang Name="MainTextBlockParamCalculProfondeur" Text="العمق الاسمي	" />
+  <Lang Name="MainRadioButtonProfondeur" Text="متر 	" />
+  <Lang Name="MainTextBlockParamCalculMarnage" Text="نطاق المد والجزر	" />
+  <Lang Name="MainRadioButtonMarnage" Text="متر	" />
+  <Lang Name="MainTextBlockParamCalculHouleMax" Text="أقصى ارتفاع للموجة	" />
+  <Lang Name="MainRadioButtonHouleMax" Text="متر	" />
+  <Lang Name="MainTextBlockParamCalculHouleSignificative" Text="الموجة الكبيرة	" />
+  <Lang Name="MainRadioButtonHouleSignificative" Text="متر	" />
+  <Lang Name="MainTextBlockParamCalculPeriodeHoule" Text="مدة الموجة	" />
+  <Lang Name="MainRadioButtonPeriodeHoule" Text="ثانية	" />
+  <Lang Name="MainTextBlockParamCalculVitesseCourant" Text="سرعة التيار	" />
+  <Lang Name="MainRadioButtonVitesseCourantMS" Text="متر/ ثانية	" />
+  <Lang Name="MainRadioButtonVitesseCourantKts" Text="عقدة	" />
+  <Lang Name="MainTextBlockParamCalculVitesseVent" Text="سرعة الرياح	" />
+  <Lang Name="MainRadioButtonVitesseVentMS" Text="متر/ ثانية	" />
+  <Lang Name="MainRadioButtonVitesseVentKmh" Text="كيلو متر/ ثانية	" />
+  <Lang Name="MainTextBlockParamCalculSelectionDensiteCM" Text="اختيار الثقل النوعي لوسيلة التثبيت	" />
+  <Lang Name="MainComboBoxDensiteCM" Text="{2.4 (خرسانة مسلحة قياسية),2.8 (خرسانة مسلحة ثقيلة),3.0 (خرسانة مسلحة بالهيماتيت),7.3 (حديد زهري),7.85 (صلب)}|1	" />
+  <Lang Name="MainTextBlockAideLigne1" Text="اختر نمط في القائمة الموجودة على يسار الشاشة لتعديل النمط أو تحويله إلى وضع الحساب	" />
+  <Lang Name="MainTextBlockAideLigne2" Text="انقر على أيقونة فتح لإضافة نموذج في قائمة العمل الخاصة بك	" />
+  <Lang Name="MainTextBlockAideLigne3" Text="انقر على أيقونة تعديل لتعديل النمط المختار	" />
+  <Lang Name="MainTextBlockAideLigne4" Text="اضغط على أيقونة معايير الحساب لحساب خط المرسى على النمط المختار	" />
+  <Lang Name="MainTextBlockAideLigne5" Text="الإشارة اليدوية والتقنية في 	" />
+  <Lang Name="MainButtonSiteParametre" Text="معيار متقدم	" />
+
+  <!-- ManagerBuoy -->
+
+  <Lang Name="ManagerBuoyGeneralTab" Text="عام	" />
+  <Lang Name="ManagerBuoyRibbonGroupSaveBuoy" Text="إدارة الحفظ	" />
+  <Lang Name="ManagerBuoyButtonSauvegardeBouee" Text="حفظ	" />
+  <Lang Name="ManagerBuoyRibbonGroupMoveFloatOnStructure" Text="إزاحة الطوافة على الهيكل 	" />
+  <Lang Name="ManagerBuoyButtonDeplacerFlotteurAuDessus" Text="إزاحة لأعلى	" />
+  <Lang Name="ManagerBuoyButtonDeplacerFlotteurAuDessous" Text="إزاحة لأسفل	" />
+  <Lang Name="ManagerBuoyTextBlockPasDeplacement" Text="مسافة الإزاحة (متر)	" />
+  <Lang Name="ManagerBuoyFlotteurTab" Text="طوافة	" />
+  <Lang Name="ManagerBuoyRibbonGroupFlotteurFonctionElement" Text="التأثير على الشريحة المختارة	" />
+  <Lang Name="ManagerBuoyButtonNouveauFlotteur" Text="شريحة جديدة	" />
+  <Lang Name="ManagerBuoyButtonAjouterFlotteur" Text="أضف	" />
+  <Lang Name="ManagerBuoyButtonModificationFlotteur" Text="تعديل	" />
+  <Lang Name="ManagerBuoyButtonSupprimerFlotteur" Text="حذف	" />
+  <Lang Name="ManagerBuoyButtonFlotteurDeplacerElementAuDessus" Text="إزاحة لأعلى	" />
+  <Lang Name="ManagerBuoyButtonFlotteurDeplacerElementAuDessous" Text="إزاحة لأسفل	" />
+  <Lang Name="ManagerBuoyStructureTab" Text="الهيكل	" />
+  <Lang Name="ManagerBuoyRibbonGroupStructureFonctionElement" Text="الإجراء على الشريحة المختارة	" />
+  <Lang Name="ManagerBuoyButtonNouveauStructure" Text="شريحة جديدة	" />
+  <Lang Name="ManagerBuoyButtonAjouterStructure" Text="أضف	" />
+  <Lang Name="ManagerBuoyButtonModificationStructure" Text="تعديل 	" />
+  <Lang Name="ManagerBuoyButtonSupprimerStructure" Text="حذف	" />
+  <Lang Name="ManagerBuoyButtonStructureDeplacerElementAuDessus" Text="إزاحة لأعلى	" />
+  <Lang Name="ManagerBuoyButtonStructureDeplacerElementAuDessous" Text="إزاحة لأسفل	" />
+  <Lang Name="ManagerBuoyPyloneTab" Text="عمود	" />
+  <Lang Name="ManagerBuoyRibbonGroupPyloneFonctionElement" Text="الإجراء على العنصر المختار	" />
+  <Lang Name="ManagerBuoyButtonNouveauPylone" Text="جديد	" />
+  <Lang Name="ManagerBuoyButtonAjouterPylone" Text="أضف	" />
+  <Lang Name="ManagerBuoyButtonModificationPylone" Text="تعديل	" />
+  <Lang Name="ManagerBuoyButtonSupprimerPylone" Text="حذف	" />
+  <Lang Name="ManagerBuoyButtonPyloneDeplacerElementAuDessus" Text="إزاحة لأعلى	" />
+  <Lang Name="ManagerBuoyButtonPyloneDeplacerElementAuDessous" Text="إزاحة لأسفل	" />
+  <Lang Name="ManagerBuoyVoyantTab" Text="إشارة العوامة العلوي	" />
+  <Lang Name="ManagerBuoyRibbonGroupVoyantFonctionElement" Text="الإجراء على العنصر المذكور	" />
+  <Lang Name="ManagerBuoyButtonNouveauVoyant" Text="جديد	" />
+  <Lang Name="ManagerBuoyButtonAjouterVoyant" Text="أضف	" />
+  <Lang Name="ManagerBuoyButtonModificationVoyant" Text="تعديل	" />
+  <Lang Name="ManagerBuoyButtonSupprimerVoyant" Text="حذف	" />
+  <Lang Name="ManagerBuoyButtonVoyantDeplacerElementAuDessus" Text="إزاحة لأعلى	" />
+  <Lang Name="ManagerBuoyButtonVoyantDeplacerElementAuDessous" Text="إزاحة لأسفل	" />
+  <Lang Name="ManagerBuoyTextBlockVisualisationGraphique" Text="وحدة عرض الرسومات	" />
+  <Lang Name="ManagerBuoyTextBlockParamGenBouee" Text="المعايير العامة	" />
+  <Lang Name="ManagerBuoyTextBlockNomBouee" Text="الاسم	" />
+  <Lang Name="ManagerBuoyTextBlockChaineComp" Text="سلسلة متوافقة	" />
+  <Lang Name="ManagerBuoyTextBlockChaineMin" Text="الحد الأدنى	" />
+  <Lang Name="ManagerBuoyTextBlockChaineMax" Text="الحد الأقصى	" />
+  <Lang Name="ManagerBuoyTextBlockBoueeLest" Text="تحديد الأثقال	" />
+  <Lang Name="ManagerBuoyTextBlockBoueeMasse" Text="الكتلة	" />
+  <Lang Name="ManagerBuoyTextBlockNombre" Text="الكمية	" />
+  <Lang Name="ManagerBuoyTextBlockNombreMin" Text="الحد الأدنى	" />
+  <Lang Name="ManagerBuoyTextBlockNombreMax" Text="الحد الأقصى	" />
+  <Lang Name="ManagerBuoyTextBlockFloatToStructBuoy" Text="ارتفاع الطوافة فوق أدنى نقطة من الهيكل (متر)	" />
+  <Lang Name="ManagerBuoyTextBlockInfoBouee" Text="معلومات	" />
+  <Lang Name="ManagerBuoyTextBlockMasseBuoy" Text="كتلة العوامة (كيلو جرام)	" />
+  <Lang Name="ManagerBuoyTextBlockVolumeBuoy" Text="الحجم الكلي (متر3)	" />
+  <Lang Name="ManagerBuoyTextBlockParamGenFlotteur" Text="المعايير العامة	" />
+  <Lang Name="ManagerBuoyTextBlockNomFlotteur" Text="اسم الطوافة	" />
+  <Lang Name="ManagerBuoyButtonCopieFlotteur" Text="...	" />
+  <Lang Name="ManagerBuoyTextBlockMasseFloat" Text="الكتلة (كجم)	" />
+  <Lang Name="ManagerBuoyTextBlockInfoFlotteur" Text="المعلومات	" />
+  <Lang Name="ManagerBuoyTextBlockVolumeFloat" Text="الحجم الكلي (م3)	" />
+  <Lang Name="ManagerBuoyTextBlockParametreElementSelectFloat" Text="معايير الشريحة المختارة	" />
+  <Lang Name="ManagerBuoyTextBlockFlotteurHauteur" Text="الارتفاع (متر)	" />
+  <Lang Name="ManagerBuoyTextBlockFlotteurDiametreH" Text="القطر العلوي (متر)	" />
+  <Lang Name="ManagerBuoyTextBlockFlotteurDiametreI" Text="القطر الداخلي (متر)	" />
+  <Lang Name="ManagerBuoyTextBlockFlotteurDiametreB" Text="القطر السفلي (متر)	" />
+  <Lang Name="ManagerBuoyTextBlockFlotteurVolume" Text="الحجم الفعلي (م3)	" />
+  <Lang Name="ManagerBuoyTextBlockFlotteurVolumeCalcul" Text="الحجم الذي تم حسابه (م3)	" />
+  <Lang Name="ManagerBuoyTextBlockParamGenStructure" Text="المعايير العامة	" />
+  <Lang Name="ManagerBuoyTextBlockNomStructure" Text="اسم الهيكل	" />
+  <Lang Name="ManagerBuoyButtonCopieStructure" Text="...	" />
+  <Lang Name="ManagerBuoyTextBlockMasseStruct" Text="الكتلة (كيلو جرام)	" />
+  <Lang Name="ManagerBuoyTextBlockProfOrganeauStruct" Text="عمق حلقة الإرساء تحت قاع الطوافة (متر) 	" />
+  <Lang Name="ManagerBuoyTextBlockInfoStructure" Text="المعلومات	" />
+  <Lang Name="ManagerBuoyTextBlockVolumeStruct" Text="الحجم الكلي (م3)	" />
+  <Lang Name="ManagerBuoyTextBlockParametreElementSelectStruct" Text="معايير الشريحة المختارة	" />
+  <Lang Name="ManagerBuoyTextBlockStructureHauteur" Text="االارتفاع(متر)	" />
+  <Lang Name="ManagerBuoyTextBlockStructureDiametreH" Text="القطر العلوي (متر)	" />
+  <Lang Name="ManagerBuoyTextBlockStructureDiametreI" Text="القطر الداخلي (متر)	" />
+  <Lang Name="ManagerBuoyTextBlockStructureDiametreB" Text="القطر السفلي (متر)	" />
+  <Lang Name="ManagerBuoyTextBlockStructureVolume" Text="الحجم الفعلي (م3)	" />
+  <Lang Name="ManagerBuoyTextBlockStructureVolumeCalcul" Text="الحجم المحسوب (م3)	" />
+  <Lang Name="ManagerBuoyTextBlockParamGenPylone" Text="معايير عنصر عمود الإرشاد	" />
+  <Lang Name="ManagerBuoyTextBlockNomPylone" Text="معايير عنصر عمود الإرشاد	" />
+  <Lang Name="ManagerBuoyButtonCopiePylone" Text="...	" />
+  <Lang Name="ManagerBuoyTextBlockMassePyl" Text="الكتلة (كيلو جرام)	" />
+  <Lang Name="ManagerBuoyTextBlockParametreElementSelectPyl" Text="معايير العنصر المختار	" />
+  <Lang Name="ManagerBuoyTextBlockPyloneHauteur" Text="الارتفاع (متر)	" />
+  <Lang Name="ManagerBuoyTextBlockPyloneLongueurH" Text="العرض العلوي (متر)	" />
+  <Lang Name="ManagerBuoyTextBlockPyloneLongueurB" Text="العرض السفلي (متر)	" />
+  <Lang Name="ManagerBuoyTextBlockParamGenVoyant" Text="معايير المؤشر العلوي	" />
+  <Lang Name="ManagerBuoyTextBlockNomVoyant" Text="اسم عنصر المؤشر العلوي	" />
+  <Lang Name="ManagerBuoyButtonCopieVoyant" Text="...	" />
+  <Lang Name="ManagerBuoyTextBlockMasseVoy" Text="الكتلة (كيلو جرام)	" />
+  <Lang Name="ManagerBuoyTextBlockParametreElementSelectVoy" Text="متغيرات العنصر المختار	" />
+  <Lang Name="ManagerBuoyTextBlockVoyantHauteur" Text="الارتفاع (متر)	" />
+  <Lang Name="ManagerBuoyTextBlockVoyantLongueurH" Text="العرض العلوي (متر)	" />
+  <Lang Name="ManagerBuoyTextBlockVoyantLongueurB" Text="العرض السفلي (متر)	" />
+
+
+  <!-- Site parameter -->
+
+  <Lang Name="FenetreParametreSiteTextBlockLatitude" Text="خط العرض	" />
+  <Lang Name="FenetreParametreSiteTextBlockLongitude" Text="خط الطول	" />
+  <Lang Name="FenetreParametreSiteTextBlockDensité" Text="الثقل النوعي للماء	" />
+  <Lang Name="FenetreParametreSiteTextBlockTrainee" Text="معامل السحب	" />
+  <Lang Name="FenetreParametreSiteComboBoxTrainee" Text="{انسداد عالي = 1.4، عادي = 1.2، انسداد منخفض =0.9، عوامة جديدة للماء العذب بدون انسداد = 0.6}| 2	" />
+  <Lang Name="FenetreParametreSiteComboBoxDensiteEau" Text="{ماء مالح = 1.025، ماء عذب = 1.0}|1	" />
+
+  <!-- Equip -->
+
+  <Lang Name="EquipTextBlockTreeViewEquipement" Text="قائمة المعدات القياسية	" />
+  <Lang Name="EquipTextBlockListBoxEquipement" Text="قائمة المعدات المختارة	" />
+  <Lang Name="EquipButtonAjouterEquipement" Text="إضافة	" />
+  <Lang Name="EquipButtonModifierEquipement" Text="تعديل	" />
+  <Lang Name="EquipButtonSupprimerEquipement" Text="حذف	" />
+  <Lang Name="EquipButtonValidationEquipement" Text="موافق	" />
+
+
+  <!-- Result -->
+
+  <Lang Name="ResultRibbonTabComparateur" Text="آداة مقار	" />
+  <Lang Name="ResultRibbonGroupBuoy" Text="عوامة 	" />
+  <Lang Name="ResultTextBlockBouee1" Text="عوامة  1	" />
+  <Lang Name="ResultTextBlockBouee2" Text="عوامة  2	" />
+  <Lang Name="ResultRibbonGroupChaine" Text="سلاسل	" />
+  <Lang Name="ResultTextBlockDN1" Text="ND	" />
+  <Lang Name="ResultTextBlockDN2" Text="ND	" />
+  <Lang Name="ResultTextBlockType1" Text="النوع	" />
+  <Lang Name="ResultTextBlockType2" Text="النوع	" />
+  <Lang Name="ResultTextBlockQualite1" Text="الجودة	" />
+  <Lang Name="ResultTextBlockQualite2" Text="الجودة	" />
+  <Lang Name="ResultRibbonGroupLest" Text="الثقل	" />
+  <Lang Name="ResultRibbonGroupDensiteCM" Text="الثقل النوعي لوسيلة التثبيت	" />
+  <Lang Name="ResultComboBoxDensiteCM1" Text="{2.4 (خرسانة مسلحة قياسية)، 2.8 (خرسانة مسلحة ثقيلة)، 3.0 (خرسانة مسلحة بالهيماتيت)، 7.3 (حديد زهر)، 7.85 (صلب)}|1	" />
+  <Lang Name="ResultComboBoxDensiteCM2" Text="{2.4 (خرسانة مسلحة قياسية)، 2.8 (خرسانة مسلحة ثقيلة)، 3.0 (خرسانة مسلحة بالهيماتيت)، 7.3 (حديد زهر)، 7.85 (صلب)}|1	" />
+  <Lang Name="ResultRibbonGroupPlus" Text="زائد	" />
+  <Lang Name="ResultRibbonTabPrintExport" Text="طبع وتصدير	" />
+  <Lang Name="ResultRibbonGroupTitleProject" Text="عنوان المستند	" />
+  <Lang Name="ResultRibbonGroupPrint" Text="طبع	" />
+  <Lang Name="ResultButtonImpression" Text="طبع	" />
+  <Lang Name="ResultRibbonGroupExport" Text="تصدير	" />
+  <Lang Name="ResultButtonExportCSV" Text="نص	" />
+  <Lang Name="ResultRibbonTabView" Text="عرض رسومات	" />
+  <Lang Name="ResultRibbonGroupView" Text="عرض رسومات	" />
+  <Lang Name="ResultButtonVisualisation" Text="وحدة عمودية لعرض رسومات	" />
+  <Lang Name="ResultTextBlockDN" Text="ND	" />
+  <Lang Name="ResultTextBlockType" Text="النوع	" />
+  <Lang Name="ResultTextBlockLest" Text="ثقل	" />
+  <Lang Name="ResultTextBlockDensite" Text="الثقل النوعي	" />
+  <Lang Name="ResultTextBlockProfondeur" Text="العمق الاسمي	" />
+  <Lang Name="ResultTextBlockMasseEquipement" Text="كتلة المعدات	" />
+  <Lang Name="ResultTextBlockHtMaxVagues" Text="أقصى ارتفاع للأمواج	" />
+  <Lang Name="ResultTextBlockHtSignifVague" Text="ارتفاع  الموجات الكبيرة	" />
+  <Lang Name="ResultTextBlockPeriodeVague" Text="مدة الموجات	" />
+  <Lang Name="ResultTextBlockMarnage" Text="نطاق المد والجزر	" />
+  <Lang Name="ResultTextBlockVitVentMS" Text="أقصى سرعة للرياح	" />
+  <Lang Name="ResultTextBlockVitVentKMH" Text="أقصى سرعة للرياح	" />
+  <Lang Name="ResultTextBlockVitCourantMS" Text="أقصى سرعة للتيارt	" />
+  <Lang Name="ResultTextBlockVitCourantNds" Text="أقصى سرعة للتيار	" />
+  <Lang Name="ResultTextBlockParametreChaineCM" Text="معايير السلسة ووسيلة التثبيت المختارتين	" />
+  <Lang Name="ResultTextBlockConditionSiteSaisi" Text="أوضاع موقع الإدخال	" />
+  <Lang Name="ResultTextBlockProfondeurResultat" Text="العمق	" />
+  <Lang Name="ResultTextBlockProfMin" Text="الحد الأدنى	" />
+  <Lang Name="ResultTextBlockLongueurCat" Text="طول المنحنى السلسلي 	" />
+  <Lang Name="ResultTextBlockTensionMax" Text="أقصى شد	" />
+  <Lang Name="ResultTextBlockMouillage" Text="الإرساء	" />
+  <Lang Name="ResultTextBlockMasseMinCM" Text="أدنى كتلة لوسيلة التثبيت	" />
+  <Lang Name="ResultTextBlockReserveFlota" Text="الطفو الاحتياطي للعوامة	" />
+  <Lang Name="ResultTextBlockFrancBord" Text="الجزء الظاهر من العوامة فوق الماء	" />
+  <Lang Name="ResultTextBlockSurfLatImme" Text="المستوى الجانبي المغمور	" />
+  <Lang Name="ResultTextBlockProfMax" Text="الحد الأقصى	" />
+  <Lang Name="ResultTextBlockRayonEvitage" Text="الحد الأقصى لنصف قطر الحركة	" />
+  <Lang Name="ResultTextBlockCoefSecuChaine" Text="عامل آمان السلسلة	" />
+  <Lang Name="ResultTextBlockIALACoefSecu" Text="(IALA: ≥5\\Ce)	" />
+  <Lang Name="ResultTextBlockTraineH" Text="السحب الأفقي	" />
+  <Lang Name="ResultTextBlockDeplTotBuoy" Text="الإزاحة الكلية للعوامة	" />
+  <Lang Name="ResultTextBlockTirantEau" Text="الجزء الغاطس من العوامة	" />
+  <Lang Name="ResultTextBlockSurfLatEme" Text="المستوى الجانبي المغمور	" />
+  <Lang Name="ResultLinearAxisCatenaire" Text="نصف قطر الحركة	" />
+  <Lang Name="ResultLinearAxisProfondeur" Text="العمق (متر)	" />
+  <Lang Name="ResultTextBlockTitleResultat" Text="النتائج	" />
+  <Lang Name="ResultTextBlockTitleGraphique" Text="وحدة عرض رسومات المنحى السلسلي	" />
+
+
+  <!-- View -->
+
+  <Lang Name="ViewTextBlockTitle" Text="وحدة عرض رسومات الجزء الظاهر فوق سطح الماء	" />
+  <Lang Name="ViewRadioButtonPIC" Text="عمودي	" />
+  <Lang Name="ViewRadioButtonFullLoad" Text="ثقل كامل	" />
+  <Lang Name="ViewTextBlockBuoy1" Text="1 عوامة	" />
+  <Lang Name="ViewTextBlockBuoy2" Text="2 عوامة	" />
+
+
+  <!-- General -->
+
+  <Lang Name="GeneralTitreProjet" Text="اسم المشروع	" />
+  <Lang Name="GeneralErreurRepertoire" Text="خطأ عدم إمكانية الوصول إلى دليل العمل	" />
+  <Lang Name="GeneralErreurAjoutBouee" Text="خطأ يتعذر إضافة العوامة	" />
+  <Lang Name="GeneralErreurModifBouee" Text="خطأ يتعذر تعديل العوامة	" />
+  <Lang Name="GeneralErreurSupprBouee" Text="خطأ يتعذر حذف العوامة	" />
+  <Lang Name="GeneralAjoutEquipementCategorie" Text="فئة المعدات	" />
+  <Lang Name="GeneralAjoutEquipementNom" Text="اسم المعدات	" />
+  <Lang Name="GeneralAjoutEquipementMasse" Text="وحدة كتلة المعدات (كيلو جرام)	" />
+  <Lang Name="GeneralTextBlockProject" Text="المشروع	" />
+  <Lang Name="GeneralTextBlockParametre" Text="المعايير	" />
+  <Lang Name="GeneralTextBlockProfondeurMax" Text="العمق الأقصى	" />
+  <Lang Name="GeneralTextBlockProfondeurMin" Text="العمق الأدنى	" />
+  <Lang Name="GeneralTextBlockTensionMaxMouillage" Text="الشد الأقصى للرسو	" />
+  <Lang Name="GeneralTextBlockCoefSecuChaineIALA" Text="معامل أمان السلسلة (IALA: ≥5\\اختبار الثقل)	" />
+  <Lang Name="GeneralTextBlockDiamChaine" Text="قطر السلسلة	" />
+  <Lang Name="GeneralTextBlockTypeChaine" Text="نوع السلسلة 	" />
+  <Lang Name="GeneralTextBlockCSVPointVirg" Text="نقطة – فاصلة الملف النصي	" />
+  <Lang Name="GeneralTextBlockCSVVirg" Text="فاصلة الملف النصي	" />
+  <Lang Name="GeneralTextBlockCSVTab" Text="جدولة ملف  نصي	" />
+  <Lang Name="InfoBulleAddBuoy" Text="هل ترغب في استبدال العوامة القائمة؟	" />
+  <Lang Name="InfoBulleModifyBuoy" Text="الخروج بدون حفظ العوامة؟	" />
+  <Lang Name="InfoBulleCopyBuoyText" Text="اسم العوامة	" />
+  <Lang Name="InfoBulleDeleteBuoy" Text="هل ترغب في حذف العوامة	" />
+  <Lang Name="InfoBulleErreurDeferlement" Text="تحذير: حاجز بحري	" />
+  <Lang Name="InfoBulleErreurHauteurOrg" Text="Warning: الهيكل أعلى من العمق	" />
+
+</Calmar>
