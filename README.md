@@ -9,7 +9,9 @@ This tool allows users to use or input libraries of buoy models or easily built 
 It also allows user to compare the results between two different buoys or two different buoys mooring lines. 
 This software will be offered for free distribution to IALA members.
 
+VERSION 0.2.4.34
+=======
 
 DOWNLOAD
 ========
-Download the application <a href="https://raw.github.com/IALA-CALMAR/CALMAR/master/setup.exe">CALMAR</a>
+Download the application <a href="https://raw.github.com/IALA-CALMAR/CALMAR/master/CALMAR.exe">CALMAR</a>
