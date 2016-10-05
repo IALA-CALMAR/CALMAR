@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Calmar version="1.0.0.0">
+	<Buoy Name="2S5PL" ChaineMin="32" ChaineMax="38" MasseLestUnitaire="100" NombreLestMin="2" NombreLestMax="10">
+		<Structure Name="TH Type 2 Body" Masse="3405" OffsetFlotteur="1.3" OffsetOrganeau="0.2">
+			<ElementDimItem H="0.985" D0="1.904" D1="1.904" DI="1.884" Volume="0.0714" />
+			<ElementDimItem H="0.4" D0="2" D1="3.048" DI="3.048" Volume="2.264" />
+			<ElementDimItem H="1.115" D0="3.048" D1="3.048" DI="3.028" Volume="8.134" />
+			<ElementDimItem H="0.5" D0="3.048" D1="1.2" DI="0" Volume="2.278" />
+		</Structure>
+		<Flotteur Name="dummy" Masse="1">
+			<ElementDimItem H="0.01" D0="3.05" D1="3.05" DI="3.048" Volume="1E-05" />
+		</Flotteur>
+		<Pylone Name="Cruciform" Height="0.16" WidthHigh="2.04" WidthLow="2.04" Masse="82" />
+		<Pylone Name="No Bell Hex S-S" Height="2" WidthHigh="2" WidthLow="2" Masse="378" />
+		<Pylone Name="Std Topmark Support" Height="1.2" WidthHigh="0.4" WidthLow="1.2" Masse="21" />
+		<Equipement Name="Cardinal" Height="0.4" WidthHigh="0.06" WidthLow="0.06" Masse="0.5" />
+		<Equipement Name="can" Height="0.7" WidthHigh="0.4" WidthLow="0.65" Masse="13" />
+	</Buoy>
+</Calmar>
