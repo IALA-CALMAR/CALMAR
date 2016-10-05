@@ -12,8 +12,8 @@ This software will be offered for free distribution to IALA members.
 DOCUMENTATIONS
 ==============
 
-<a href="https://github.com/IALA-CALMAR/CALMAR/tree/master/User%20Manuals">Manuals</a>
-<a href="https://github.com/IALA-CALMAR/CALMAR/tree/master/Technical%20Reference">Technical reference</a>
+<a href="https://github.com/IALA-CALMAR/CALMAR/tree/master/User%20Manuals">Manuals</a><br>
+<a href="https://github.com/IALA-CALMAR/CALMAR/tree/master/Technical%20Reference">Technical reference</a><br>
 <a href="https://github.com/IALA-CALMAR/CALMAR/tree/master/Calmar%20application%20guide%20v1%20by%20THA">Application guide</a>
 
 REQUIREMENTS
